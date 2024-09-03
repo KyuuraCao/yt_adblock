@@ -1,0 +1,18 @@
+firs steps
+
+- Install uBlock origin in chrome web store
+- Follow the steps on uBlock Origin Chrome web store pages
+- got to setting -> filter list -> checklist the auto update filters list and my filters -> apply now -> update now
+- Go to My filters and copy this code 
+   
+  youtube.com##+js(set, yt.config_.openPopupConfig.supportedPopups.adBlockMessageViewModel, false)
+
+  youtube.com##+js(set, Object.prototype.adBlocksFound, 0)
+
+  youtube.com##+js(set, ytplayer.config.args.raw_player_response.adPlacements, [])
+
+  youtube.com##+js(set, Object.prototype.hasAllowedInstreamAd, true)
+
+  Apply changes
+
+- Restar your ublock Origin an Enjoy your ad free youtube experience :D
